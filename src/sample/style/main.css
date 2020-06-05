@@ -1,0 +1,54 @@
+.root {
+    -fx-background-color: #2d3137;
+}
+
+#effectLabel {
+    -fx-background-color: #354553;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 34px;
+    -fx-pref-width: 231px;
+    -fx-pref-height: 60px;
+}
+
+Button {
+    -fx-text-fill: #ffffff;
+    -fx-pref-height: 48px;
+    -fx-pref-width: 58px;
+    -fx-font-size: 20px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-border-width: 0.1pt;
+    -fx-border-color: #2d3137;
+}
+
+.number-button {
+    -fx-background-color: #85827D;
+}
+
+.number-button-zero {
+    -fx-pref-height: 48px;
+    -fx-pref-width: 116px;
+    -fx-background-color: #85827D;
+}
+
+.number-button:pressed, .number-button-zero:pressed {
+    -fx-background-color: rgba(133, 130, 125, 0.5);
+}
+
+.top-button {
+    -fx-background-color: #485764;
+}
+
+.top-button:pressed {
+    -fx-background-color: rgba(72, 87, 100, 0.5);
+}
+
+
+.operation-button {
+    -fx-background-color: #FF9328;
+}
+
+.operation-button:pressed {
+    -fx-background-color: rgba(255, 147, 40, 0.5);
+}
+
